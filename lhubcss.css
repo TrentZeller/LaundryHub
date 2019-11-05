@@ -8,7 +8,7 @@ button{
 
 div{
     text-align: center;
-    background-color: rgb(240, 231, 231);
+    background-color: white;
     border: ridge rgb(255, 255, 255);
     border-width: 10px;
     border-spacing: 10px;
@@ -23,4 +23,44 @@ body{
 
 p{
     font-size: 22px;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-align:center;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Mali", "Times New Roman", "Comic Sans"
+}
+
+nav{
+    text-align:center;
+    margin: inherit;
+    
+}
+
+ul{
+    font-size: 15px;
+    color: white;
+    background-color:white;
+    list-style-type: none;
+    display: inline-block;
+    text-align:center;
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    text-align:center;
+}
+
+#Welcome{
+    color: black;
+    font-size: 45px;
+}
+
+a{
+    display: block;
 }
