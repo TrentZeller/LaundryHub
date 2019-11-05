@@ -1,8 +1,26 @@
-.button{
+button{
     border-radius: 12px;
     text-align: center;
+    background-color: #0664f0;
+    color: white;
+    border-color:black;
 }
 
 div{
     text-align: center;
+    background-color: rgb(240, 231, 231);
+    border: ridge rgb(255, 255, 255);
+    border-width: 10px;
+    border-spacing: 10px;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+body{
+    background-color: blue;
+    margin: 0px 100px 0px 100px;
+}
+
+p{
+    font-size: 22px;
 }
