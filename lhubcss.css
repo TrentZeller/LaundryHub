@@ -31,7 +31,7 @@ p{
 
 h1{
     font-size: 100px;
-    color: black;
+    color: white;
     text-align:center;
     padding: 0px;
     margin: 0px;
@@ -49,7 +49,7 @@ nav{
 ul{
     font-size: 15px;
     color: white;
-    background-color:red;  /*changes the color of the nav bar*/
+    background-color:black;  /*changes the color of the nav bar*/
     list-style-type: none;
     display: inline-block;
     text-align:center;
@@ -63,27 +63,34 @@ ul{
 
 li{
     padding: 15px;
-    font-size: 25px;
+    font-size: 50px;
     text-align:center;
     display: inline;
+
 }
 
 #Welcome{
-    color: red; /*this isn't working needs to be fixed */ 
+    color: black; 
     font-size: 45px;
 }
 
 a{
     display: inline-block;
     padding: 10px;
-    background-color: green; /*Changes the color of the button */
-    color: orange;     /*changes te color of the text */
+    background-color: black; /*Changes the color of the button */
+    color: white;     /*changes te color of the text */
+    text-align: center;
+    font-size: 25px;
+    text-decoration:none;
 }
 
 li a:hover {
-    background-color: #111;  /* changes the color when mouse hovers over */
+    background-color: blue;  /* changes the color when mouse hovers over */
 }
 
+li a:visited {
+    color: white;
+}
 header{
     width: 100%;
 }
