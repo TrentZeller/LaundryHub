@@ -22,9 +22,6 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/fabric-plaid.png");
 }
 
-.f{
-    font-family: 'Times New Roman', Times, serif
-}
 
 p{
     font-size: 26px;
@@ -36,7 +33,8 @@ h1{
     text-align:center;
     padding: 0px;
     margin: 0px;
-    font-family: "Mali", "Times New Roman", "Comic Sans"
+    font-family: "Mali", "Times New Roman", "Comic Sans";
+    text-shadow: 3px 3px grey;
 }
 
 nav{
@@ -73,6 +71,7 @@ li{
 #Welcome{
     color: black; 
     font-size: 45px;
+    text-shadow:none;
 }
 
 a{
