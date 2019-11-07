@@ -17,8 +17,9 @@ div{
 }
 
 body{
-    background-color: blue;
     margin: 0px 100px 0px 100px;
+    background-color: #0022ff;
+    background-image: url("https://www.transparenttextures.com/patterns/fabric-plaid.png");
 }
 
 .f{
