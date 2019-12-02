@@ -1,24 +1,19 @@
     var submited = document.getElementById('Submit')
     var pickup = document.getElementById("pickup")
     var requests = document.getElementById("requests")
-    
+    var frm = document.getElementsByName("requestForm")[0]
     function addRequest(){
-        var formData = document.querySelector("form");
-      /*  localStorage.setItem("firstName", toString(document.getElementById("firstname")))
-        localStorage.setItem("lastName", toString(document.getElementById("lastname")))
-        localStorage.setItem("phoneNumber",toString(document.getElementById("number")))
-        localStorage.setItem("building", toString(documnet.getElementById("building")))
-        localStorage.setItem("room", toString(documnet.getElementById("room")))
-        localStorage.setItem("floor", toString(documnet.getElementById("floor")))
-        localStorage.setItem("time", toString(document.getElementById("time"))) */
-    
-        //pickup.innerHTML = "Test"
-        //requests.innerHTML = "Test"
-        addPickup()
+        //localStorage.clear()
+        localStorage.setItem("firstName", JSON.stringify(document.getElementById("firstname").value))
+        localStorage.setItem("lastName", JSON.stringify(document.getElementById("lastname").value))
+        localStorage.setItem("number",JSON.stringify(document.getElementById("number").value))
+        localStorage.setItem("building", JSON.stringify(document.getElementById("building").value))
+        localStorage.setItem("room", JSON.stringify(document.getElementById("floor").value))
+        localStorage.setItem("floor", JSON.stringify(document.getElementById("room").value))
+        localStorage.setItem("time", JSON.stringify(document.getElementById("time").value)) 
+        
+        frm.reset()
+        return false;
     }
-    
-    function addPickup(){
-        //pickup.innerHTML = formData
-    }
-    submited.addEventListener("click", addRequest());
+    submited.addEventListener("click", addRequest);
 
