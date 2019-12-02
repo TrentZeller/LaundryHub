@@ -1,4 +1,3 @@
-window.onload = function() {
     var submited = document.getElementById('Submit')
     var pickup = document.getElementById("pickup")
     var requests = document.getElementById("requests")
@@ -14,7 +13,7 @@ window.onload = function() {
         localStorage.setItem("time", toString(document.getElementById("time"))) */
     
         //pickup.innerHTML = "Test"
-        requests.innerHTML = "Test"
+        //requests.innerHTML = "Test"
         addPickup()
     }
     
@@ -22,5 +21,4 @@ window.onload = function() {
         //pickup.innerHTML = formData
     }
     submited.addEventListener("click", addRequest());
-}
 
